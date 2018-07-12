@@ -1,0 +1,26 @@
+{
+  "name": "codetest1",
+  "version": "1.0.0",
+  "description": "code test 1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.272.1",
+    "dynamodb-doc": "^1.0.0",
+    "shasum": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mocha",
+    "testing"
+  ],
+  "author": "Michael Vetter",
+  "license": "ISC"
+}
